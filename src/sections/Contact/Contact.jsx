@@ -37,6 +37,10 @@ function Contact() {
                 software.
               </p>
 
+              <p className="mt-3 text-sm text-slate-400">
+                Usually respond within 24 hours.
+              </p>
+
               <a
                 href="mailto:yashparashar.211@gmail.com"
                 className="mx-auto mt-8 flex w-full max-w-md items-center justify-center gap-3 rounded-full border border-white/15 bg-white/5 px-5 py-4 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:border-purple-300/40 hover:bg-white/10 sm:w-fit sm:text-base"

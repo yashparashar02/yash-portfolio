@@ -17,7 +17,7 @@ function Hero() {
     <Section id="home">
       <Container>
         <div className="flex min-h-[calc(100vh-7rem)] items-center">
-          <div className="w-full">
+          <div className="grid w-full items-center gap-16 lg:grid-cols-[1.3fr_0.7fr]">
             <motion.div
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
@@ -133,6 +133,18 @@ function Hero() {
                 <FaLinkedinIn />
               </a>
             </motion.div>
+
+            <div className="hidden justify-center lg:flex">
+              <div className="relative">
+                <div className="absolute inset-0 rounded-full bg-purple-500/20 blur-3xl" />
+
+                <img
+                  src="/profile.png"
+                  alt="Yash Parashar"
+                  className="relative h-80 w-80 rounded-full border-4 border-white/10 object-cover shadow-2xl"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </Container>
