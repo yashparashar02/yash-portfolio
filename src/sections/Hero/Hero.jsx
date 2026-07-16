@@ -139,7 +139,7 @@ function Hero() {
                 <div className="absolute inset-0 rounded-full bg-purple-500/20 blur-3xl" />
 
                 <img
-                  src="/profile.png"
+                  src="/profile.jpeg"
                   alt="Yash Parashar"
                   className="relative h-80 w-80 rounded-full border-4 border-white/10 object-cover shadow-2xl"
                 />
