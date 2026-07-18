@@ -8,7 +8,6 @@ export const projects = [
       "Java",
       "Spring Boot",
       "React",
-      "JavaScript",
       "REST APIs",
       "MySQL",
     ],
@@ -29,5 +28,20 @@ export const projects = [
     ],
     github:
       "https://github.com/yashparashar02/Theme-Park-Ticketing-System",
+  },
+  {
+    id: 3,
+    title: "Employee & Department Mangement System",
+    description:
+      "Developed a full-stack employee management application using Spring Boot, React, MySQL, and RESTful APIs.",
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "React",
+      "REST APIs",
+      "MySQL",
+    ],
+    github:
+      "https://github.com/yashparashar02/employee-management-system",
   },
 ];
