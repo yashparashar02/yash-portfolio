@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Employee & Department Mangement System",
+    title: "Employee & Department Management System",
     description:
       "Developed a full-stack employee management application using Spring Boot, React, MySQL, and RESTful APIs.",
     technologies: [
@@ -44,4 +44,21 @@ export const projects = [
     github:
       "https://github.com/yashparashar02/employee-management-system",
   },
+  {
+  id: 4,
+  title: "Todo Management Application",
+  description:
+    "Built a full-stack todo management application with user authentication, JWT-based security, task management, and RESTful API integration using Spring Boot and React.",
+  technologies: [
+    "Java",
+    "Spring Boot",
+    "React",
+    "REST APIs",
+    "MySQL",
+    "Spring Security",
+    "JWT",
+  ],
+  github:
+    "https://github.com/yashparashar02/todo-management-application",
+},
 ];

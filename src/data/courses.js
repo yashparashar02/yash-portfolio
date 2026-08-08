@@ -14,5 +14,6 @@ export const courses = [
     ],
     courseUrl:
       "https://www.udemy.com/course/full-stack-java-development-with-spring-boot-react/learn/lecture/38207212#overview",
+    certificateUrl: "/certificates/spring-boot-react-certificate.jpg",
   },
 ];

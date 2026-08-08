@@ -8,13 +8,14 @@ import Reveal from "../../components/Reveal/Reveal";
 
 import { courses } from "../../data/courses";
 
-function Course() {
+function Courses() {
   return (
-    <Section id="professional-development">
+    <Section id="education">
       <Container>
-        <SectionTitle icon={HiOutlineBookOpen}>
-          Professional Development
-        </SectionTitle>
+        <SectionTitle
+          icon={HiOutlineBookOpen}
+          title="Professional Development"
+        />
 
         <div className="space-y-6">
           {courses.map((course, index) => (
@@ -29,6 +30,7 @@ function Course() {
                 description={course.description}
                 technologies={course.technologies}
                 courseUrl={course.courseUrl}
+                certificateUrl={course.certificateUrl}
               />
             </Reveal>
           ))}
@@ -38,4 +40,4 @@ function Course() {
   );
 }
 
-export default Course;
+export default Courses;
